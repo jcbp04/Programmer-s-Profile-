@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>John Christopher B. Perez | Programmer Profile</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="booting">
+
+<!-- ========== OPENING SCREEN (shown first, hidden by script.js) ========== -->
+<div id="boot">
+  <svg class="skull" viewBox="0 0 120 130" aria-label="Hacker skull logo">
+    <path d="M60 6C30 6 14 28 14 52c0 16 7 27 17 33v16h58V85c10-6 17-17 17-33C106 28 90 6 60 6z" fill="none" stroke="currentColor" stroke-width="3"/>
+    <ellipse cx="42" cy="56" rx="12" ry="14" fill="currentColor"/>
+    <ellipse cx="78" cy="56" rx="12" ry="14" fill="currentColor"/>
+    <path d="M60 70l-7 14h14z" fill="currentColor"/>
+    <path d="M40 101v14M52 101v14M64 101v14M76 101v14M88 101v14" stroke="currentColor" stroke-width="3"/>
+    <path d="M31 115h58" stroke="currentColor" stroke-width="3"/>
+  </svg>
+  <pre id="bootText"></pre>
+</div>
+
+<!-- ========== NAVIGATION ========== -->
+<header class="nav">
+  <a href="#home" class="logo">&gt; chanzyy<span class="cursor">_</span></a>
+  <button id="menuBtn" aria-label="Toggle menu">&#9776;</button>
+  <nav id="menu">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<!-- ========== HOME / HERO ========== -->
+<section id="home" class="hero">
+  <div class="hero-text">
+    <p class="status"><i class="dot"></i> status: online</p>
+    <!-- EDIT: your name, age, course, school -->
+    <h1>John Christopher<br>Bornios Perez<span class="cursor">_</span></h1>
+    <ul class="facts">
+      <li><b>$ age</b> 20</li>
+      <li><b>$ course</b> Bachelor of Science in Information Technology</li>
+      <li><b>$ school</b> Nueva Vizcaya State University</li>
+    </ul>
+    <p class="intro">// An aspiring Information Technology professional passionate about learning, cybersecurity, technology, and building useful digital solutions.</p>
+    <div class="btns">
+      <a class="btn" href="#about">About Me</a>
+      <a class="btn" href="#achievements">Achievements</a>
+      <a class="btn" href="#education">Education</a>
+      <a class="btn" href="#skills">Skills</a>
+      <a class="btn" href="#contact">Contact</a>
+    </div>
+  </div>
+  <!-- EDIT: replace the placeholder with <img src="photo.jpg" alt="John"> -->
+  <div class="avatar"><span><img src="IMG_20261008_064204_686.jpg"></span></div>
+</section>
+
+<!-- ========== ABOUT ========== -->
+<section id="about">
+  <h2><span>/</span> About Me</h2>
+  <div class="grid">
+    <article class="card"><h3>&gt; Personal Interests</h3><p>[Add personal interests here]</p></article>
+    <article class="card"><h3>&gt; Technology Interests</h3><p>[Add technology interests here]</p></article>
+    <article class="card"><h3>&gt; Cybersecurity Interests</h3><p>[Add cybersecurity interests here]</p></article>
+    <article class="card"><h3>&gt; Personal Goals</h3><p>[Add personal goals here]</p></article>
+    <article class="card wide"><h3>&gt; Future Career Goals</h3><p>[Add future career goals here]</p></article>
+  </div>
+</section>
+
+<!-- ========== ACHIEVEMENTS (copy a card to add more) ========== -->
+<section id="achievements">
+  <h2><span>/</span> Achievements</h2>
+  <div class="grid">
+    <article class="card">
+      <div class="icon">&#9733;</div>
+      <h3>Vice Mayor</h3>
+      <small>Future Information Technologists' Society</small>
+      <p>Served as Vice Mayor, helping represent and support fellow Information Technology students.</p>
+    </article>
+    <article class="card">
+      <div class="icon">&#9670;</div>
+      <h3>Dean's Lister</h3>
+      <small>Academic Recognition</small>
+      <p>Recognized for maintaining strong academic performance in college.</p>
+    </article>
+    <article class="card">
+      <div class="icon">&#9650;</div>
+      <h3>Hack for Gov Participant</h3>
+      <small>Cybersecurity Competition</small>
+      <p>Took part in a cybersecurity competition, gaining experience in solving challenges, teamwork, and core cybersecurity concepts.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ========== EDUCATION (copy a .step to add more) ========== -->
+<section id="education">
+  <h2><span>/</span> Academic Journey</h2>
+  <div class="timeline">
+    <div class="step"><div class="card">
+      <small>Elementary</small><h3>Vista Hills Elementary School</h3>
+      <h4>Academic Achievements</h4><ul><li>[Add elementary achievements here]</li></ul>
+    </div></div>
+    <div class="step"><div class="card">
+      <small>Junior High School</small><h3>PLT College Inc.</h3>
+      <h4>Academic Achievements</h4><ul><li>[Add junior high school achievements here]</li></ul>
+    </div></div>
+    <div class="step"><div class="card">
+      <small>Senior High School</small><h3>Nueva Vizcaya General Comprehensive High School</h3>
+      <h4>Academic Achievements</h4><ul><li>[Add senior high school achievements here]</li></ul>
+    </div></div>
+    <div class="step"><div class="card">
+      <small>College</small><h3>Nueva Vizcaya State University</h3>
+      <p>Course: Bachelor of Science in Information Technology</p>
+      <h4>Academic Achievements</h4>
+      <ul>
+        <li>Vice Mayor – Future Information Technologists' Society</li>
+        <li>Dean's Lister</li>
+        <li>Hack for Gov Participant</li>
+        <li>[Add more achievements here]</li>
+      </ul>
+    </div></div>
+  </div>
+</section>
+
+<!-- ========== SKILLS ==========
+     EDIT: change data-level (0-100) and the label. Starts low on purpose; update as you grow. -->
+<section id="skills">
+  <h2><span>/</span> Technical Skills</h2>
+  <div class="grid">
+    <article class="card skill" data-level="30"><h3>{ } Database Management</h3><p>[Add details]</p><div class="bar"><i></i></div><small>Learning</small></article>
+    <article class="card skill" data-level="30"><h3>{ } Networking</h3><p>[Add details]</p><div class="bar"><i></i></div><small>Learning</small></article>
+    <article class="card skill" data-level="30"><h3>{ } Cybersecurity</h3><p>[Add details]</p><div class="bar"><i></i></div><small>Learning</small></article>
+    <article class="card skill" data-level="30"><h3>{ } Tools &amp; Technologies</h3><p>[Add details]</p><div class="bar"><i></i></div><small>Learning</small></article>
+    <article class="card skill" data-level="30"><h3>{ } [Other skill]</h3><p>[Add details]</p><div class="bar"><i></i></div><small>Learning</small></article>
+  </div>
+</section>
+
+<!-- ========== CONTACT (replace the placeholders; add only what you want public) ========== -->
+<section id="contact">
+  <h2><span>/</span> Contact</h2>
+  <div class="grid">
+    <a class="card" href="mailto:your@email.com"><h3>$ email</h3><p>perezjohnchristopher04@gmail.com</p></a>
+    <a class="card" href="https://github.com/" target="_blank" rel="noopener"><h3>$ github</h3><p>github.com/jcbp04</p></a>
+    <a class="card" href="https://facebook.com/" target="_blank" rel="noopener"><h3>$ social</h3><p>[Facebook / other link]</p></a>
+    <div class="card wide"><h3>$ location</h3><p>[City, Province, Philippines]</p></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p>&gt; SYSTEM STATUS: ONLINE</p>
+  <p>&copy; <span id="year">2026</span> John Christopher Bornios Perez | Programmer Profile</p>
+</footer>
+
+<canvas id="rain" aria-hidden="true"></canvas>
+<script src="script.js"></script>
+</body>
+</html>
